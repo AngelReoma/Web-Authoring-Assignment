@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evolution of HTML and CSS - Web Authoring Assignment</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color: grey;
+}
+
+.container {
+  width: 75%;
+  margin:auto;
+  background-color: white;
+  border: 2px solid black;
+}
+
+header {
+  background-color: #571e63;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+nav {
+    background-color: #571e63;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #571e63;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: blue;
+  color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display:flex;
+    padding: 15px;
+    background-color: 222;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: black;
+}
+
+.content {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    min-height: 400px;
+}
+
+.content {
+    text-align: left;
+}
+
+table, td, th {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.div1 {
+  width: 650px;
+  height: 650px;
+  border: 2px solid black;
+  background-color: rgb(253, 255, 222);
+  }
+
+.div2 {
+  width: 630px;
+  height: 550px;
+  border: solid black;
+  background-color: rgb(253, 255, 222);
+}
+
+footer {
+  background-color: #571e63;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>  
+</head>
+
+<body id="top">
+
+<div class="container">
+<header>
+ <h1>The Evolution of HTML and CSS</h1>
+</header>
+
+<ul class="topnav">
+  <li><a href="index.html">HTML</a></li>
+  <li><a href="css.html">CSS</a></li>
+  <li><a href="html-tags.html">HTML-tags</a></li>
+  <li><a href="reference.html">Reference</a></li>
+</ul>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">HTML</a></li>
+      <li><a href="css.html">CSS</a></li>
+      <li><a href="html-tags.html">HTML-tags</a></li>
+      <li><a href="reference.html">Reference</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h2>HTML and CSS Tags I have used in my Assignment.</h2>
+<p> Below are the tags I have used for creating my website:</p>
+
+<h3>HTML Tags</h3>
+<div class="div1"> <strong>Tag Names</strong>
+  <p>Doctype-</p>
+  <p>html - &lt;html&gt;</p>
+  <p>Sections of my webpage - &lt;head&gt; &lt;body&gt; </p>
+  <p>Page Title - &lt;title&gt;</p> 
+  <p>Paragraphs and sections - &lt;p&gt; &lt;div&gt;</p>
+  <p>The Header elements -  &lt;h1&gt;  &lt;h2&gt; &lt;h3&gt; &lt;h4&gt;</p>
+  <p>Formatting element - &lt;strong&gt; &lt;i&gt;</p>
+  <p>Data tables -  &lt;table&gt;  &lt;tr&gt;  &lt;th&gt;</p>
+  <p>Lists -  &lt;ul&gt; </p>
+  <p>Hyperlink - &lt;a href="https://www.w3schools.com/html/html_links.asp" target="_blank">w3schools&gt;</p>
+  <p>Images - &lt;img&gt; </p>
+<br>
+<h4>Special symbols and character entities:</h4>
+  <p>Copyright symbol -  &copy; </p>
+  <p>Ampersand symbol - &</p>
+  <p>Less than - &lt;</p>
+  <p>Greater than - &gt;</p>
+</div>
+<br>
+<h3><strong>Explaining HTML Tags</strong></h3>
+  <h4>Purpose and Use, Key Attributes and Support Webrowser</h4>
+<table>
+   <tr>
+    <th>HTML Tags</th>
+    <th>Purpose & Use</th>
+    <th>Key Attributes</th>
+    <th>Support Webrowser</th>
+  </tr>
+  <tr>
+    <td>&lt;img&gt;</td>
+    <td>tag is used to embed an image in an HTML page</td>
+    <td>the <i>src</i> attribute specifies the path to the image to be displayed</td>
+    <td>fully supported by all mordern browsers</td>
+  </tr>
+  <tr>
+    <td>&lt;html&gt;</td>
+    <td>the <i>lang</i>> inside the &lt;html&gt; tag, declare the language of the Web page</td>
+    <td>country code can also be added in the <i>lang</i> attribute</td>
+    <td>fully supported by all mordern browsers</td>
+  </tr>
+  <tr>
+    <td>&lt;title&gt;</td>
+    <td>define some extra information about an element</td>
+    <td>title attribute will be define as tooltip</td>
+    <td>fully supported by all modern browser</td>
+  </tr>
+  <tr>
+    <td>&lt;a&gt;</td>
+    <td>efines a hyperlink.</td>
+    <td>attribute of &lt;a&gt; is <i>href</i> attribute which indicates link destination</td>
+    <td>fully supported by all modern browsers</td>
+  </tr>
+  <tr>
+    <td>&lt;body&gt;</td>
+    <td>defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</td>
+    <td>&lt;body&gt; supports the global attributes</td>
+    <td>fully supported by all modern browsers</td>
+  </tr>
+  <tr>
+    <td>&lt;tables&gt;</td>
+    <td>defines an HTML table</td>
+    <td>&lt;table&gt; consist one or more &lt;tr&gt; &lt;th&gt; and &lt;td&gt; elements</td>
+    <td>fully supported by all modern browsers</td>
+  </tr>
+  <tr>
+    <td>&lt;ul&gt;</td>
+    <td>tag defines an unordered (bulleted) list</td>
+    <td>&lt;ul&gt; tag with &lt;li&gt; tag create an unordered list</td>
+    <td>fully supported by all modern browsers</td>
+  </tr>
+  <tr>
+    <td>&lt;p&gt;</td>
+    <td>defines a paragraph</td>
+    <td>browsers authomatically add a single blank line before and after each &lt;p&gt; element</td>
+    <td>fully supported by all modern browsers</td>
+  </tr>
+  <tr>
+    <td>&lt;h1-4&gt;</td>
+    <td>element defines heading</td>
+    <td>&lt;h1&gt; defines the most important heading. &lt;h5&gt; defines the least important heading</td>
+    <td>browser automatically add margin before and after heading</td>
+  </tr>
+</table>
+
+<div class="div2"> 
+<h3>CSS Styling</h3>
+<p><i>some of the CSS elements I used in my website to apply CSS to given design:</i></p>
+<p><strong>CSS Styling:</strong> Using <i>HTML Tags, class, id and selectors</i>. Helped my web page became more outstanding and organised </p>
+<p><strong>Font and text-propertiess:</strong> The <i>font-family</i> I have use to create my web page is Times New Roman, as my <i>font-size</i>: is 16px;
+<i>text-decoration</i> may came as "none" and lastly to organised my page, I made sure my <i>text-align</i> are on the left, some of the table headings may came as center</p>
+<p><strong>Color and background properties:</strong> Following the CSS brief, I made my webpage &lt;body&gt; <i>background-color</i> grey while my &lt;nav&gt; and &lt;header&gt; <i>color</i>
+are purple</p>
+<p><strong>Positioning:</strong> To position my HTML tags or images I used <i>float</i> whether I put them on the left, right, bottom or top</p>
+<p><strong>Borders:</strong> To put my borders in my webpage I have used <i>&lt;border&gt;</i> in a color solid black, <i>&lt;border-weight&gt;</i> and lastly <i>&lt;border-style&gt;</i></p> 
+<p><strong>Lists:</strong> For my list I have used <i>list-style-type</i> to set the marker of my list item element</p> 
+<p><strong>Units:</strong> I have used the unit of <i>%</i> and <i>px</i> to value my width, margin, padding etc</p>
+<p><strong>Pseudo-elements:</strong> For my hyperlinks and navigation, I have used the pseudo elements such as <i>a:link</i> 
+<i></i>a:hover<i> </i>a:active<i> and </i>a:visited </p>
+</div>
+
+<footer>
+    <p>Copyright 2026 Student Name |<a href="#">Back To Top</a></p>
+</footer>
+</div>
+</body>
+</html>
+
+
+  
